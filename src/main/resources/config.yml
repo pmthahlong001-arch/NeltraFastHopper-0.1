@@ -1,0 +1,31 @@
+# =============================================
+#       NeltraFastHopper v0.1 Config
+#       Dành cho Folia 1.21.11
+# =============================================
+
+# Tốc độ tick hopper (đơn vị: tick Minecraft)
+# Vanilla mặc định = 8 tick (cứ 8 tick mới hút 1 lần)
+# Giá trị càng NHỎ → hopper hút càng NHANH
+# Min: 1 tick (nhanh tối đa) | Max: 200 tick (rất chậm)
+# Khuyến nghị: 1-4 để nhanh, 8 là vanilla
+hopper-tick-speed: 1
+
+# Số lượng item hút mỗi lần transfer (vanilla = 1)
+# Tăng giá trị này để hút nhiều item hơn mỗi lần
+# Min: 1 | Max: 64
+items-per-transfer: 1
+
+# Bật/tắt fast hopper toàn server
+enabled: true
+
+# Bật debug mode (in log ra console mỗi khi hopper hút item)
+# CẢNH BÁO: Tắt khi production, bật chỉ để test!
+debug: false
+
+# Thông báo (hỗ trợ mã màu &)
+messages:
+  prefix: "&8[&bNeltraFastHopper&8] "
+  reload-success: "&aConfig đã được reload thành công!"
+  reload-fail: "&cReload thất bại! Kiểm tra console để biết thêm."
+  no-permission: "&cBạn không có quyền dùng lệnh này!"
+  plugin-info: "&bNeltraFastHopper &fv0.1 &7- Fast Hopper for Folia 1.21.11"

@@ -1,0 +1,19 @@
+name: NeltraFastHopper
+version: 0.1
+main: com.neltra.fasthopper.NeltraFastHopper
+api-version: '1.21'
+description: Fast Hopper plugin - Makes hoppers transfer items faster
+author: Neltra
+folia-supported: true
+
+commands:
+  neltrahopper:
+    description: NeltraFastHopper main command
+    aliases: [nfh, fasthopper]
+    usage: /<command> [reload|info]
+    permission: neltrahopper.admin
+
+permissions:
+  neltrahopper.admin:
+    description: Access to NeltraFastHopper admin commands
+    default: op
